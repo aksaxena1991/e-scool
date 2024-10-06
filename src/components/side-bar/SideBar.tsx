@@ -1,6 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./sideBar.css";
-import {NavLink} from 'react-router-dom';
 
 const SideBar: React.FC = () => {
   return (
@@ -16,64 +16,71 @@ const SideBar: React.FC = () => {
           <a
             href="#"
             className="nav-link collapsed"
-            data-bs-target="#components-nav"
+            data-bs-target={"#components-nav-0"}
             data-bs-toggle="collapse"
           >
             <i className="bi bi-building-fill"></i>
             <span>School Management</span>
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
-          <ul id="components-nav" className="nav-content collapse" data-bs-parent="#sidebar-nav">
-          <li>
-                <NavLink to="/addCity">
-                    <i className="bi bi-circle"></i>
-                    <span>Add City</span>
-                </NavLink>
+          <ul
+            id="components-nav-0"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <NavLink to="/addCity">
+                <i className="bi bi-circle"></i>
+                <span>Add City</span>
+              </NavLink>
             </li>
             <li>
-                <NavLink to="/addSchool">
-                    <i className="bi bi-circle"></i>
-                    <span>Add School</span>
-                </NavLink>
+              <NavLink to="/addSchool">
+                <i className="bi bi-circle"></i>
+                <span>Add School</span>
+              </NavLink>
             </li>
             <li>
-                <NavLink to="/addClass">
-                    <i className="bi bi-circle"></i>
-                    <span>Add Class</span>
-                </NavLink>
+              <NavLink to="/addClass">
+                <i className="bi bi-circle"></i>
+                <span>Add Class</span>
+              </NavLink>
             </li>
             <li>
-                <NavLink to="/addSubject">
-                    <i className="bi bi-circle"></i>
-                    <span>Add Subject</span>
-                </NavLink>
+              <NavLink to="/addSubject">
+                <i className="bi bi-circle"></i>
+                <span>Add Subject</span>
+              </NavLink>
             </li>
-           
           </ul>
         </li>
         <li className="nav-item">
           <a
             href="#"
             className="nav-link collapsed"
-            data-bs-target="#components-nav"
+            data-bs-target="#components-nav-1"
             data-bs-toggle="collapse"
           >
-          <i className="bi bi-person-workspace"></i>
+            <i className="bi bi-person-workspace"></i>
             <span>Teacher Management</span>
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
-          <ul id="components-nav" className="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <ul
+            id="components-nav-1"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
             <li>
-                <NavLink to="/addTeacher">
-                    <i className="bi bi-circle"></i>
-                    <span>Add Teacher</span>
-                </NavLink>
+              <NavLink to="/addTeacher">
+                <i className="bi bi-circle"></i>
+                <span>Add Teacher</span>
+              </NavLink>
             </li>
             <li>
-                <NavLink to="/assignSubject">
-                    <i className="bi bi-circle"></i>
-                    <span>Assign Subject</span>
-                </NavLink>
+              <NavLink to="/assignSubject">
+                <i className="bi bi-circle"></i>
+                <span>Assign Subject</span>
+              </NavLink>
             </li>
           </ul>
         </li>
@@ -81,25 +88,29 @@ const SideBar: React.FC = () => {
           <a
             href="#"
             className="nav-link collapsed"
-            data-bs-target="#components-nav"
+            data-bs-target="#components-nav-2"
             data-bs-toggle="collapse"
           >
-         <i className="bi bi-shop-window"></i>
+            <i className="bi bi-shop-window"></i>
             <span>Shop</span>
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
-          <ul id="components-nav" className="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <ul
+            id="components-nav-2"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
             <li>
-                <NavLink to="/categories">
-                    <i className="bi bi-circle"></i>
-                    <span>Categories</span>
-                </NavLink>
+              <NavLink to="/categories">
+                <i className="bi bi-circle"></i>
+                <span>Categories</span>
+              </NavLink>
             </li>
             <li>
-                <NavLink to="/subCategories">
-                    <i className="bi bi-circle"></i>
-                    <span>Sub Categories</span>
-                </NavLink>
+              <NavLink to="/subCategories">
+                <i className="bi bi-circle"></i>
+                <span>Sub Categories</span>
+              </NavLink>
             </li>
           </ul>
         </li>
@@ -107,25 +118,29 @@ const SideBar: React.FC = () => {
           <a
             href="#"
             className="nav-link collapsed"
-            data-bs-target="#components-nav"
+            data-bs-target="#components-nav-3"
             data-bs-toggle="collapse"
           >
-        <i className="bi bi-person-fill"></i>
+            <i className="bi bi-person-fill"></i>
             <span>Vendor</span>
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
-          <ul id="components-nav" className="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <ul
+            id="components-nav-3"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
             <li>
-                <NavLink to="/addProduct">
-                    <i className="bi bi-circle"></i>
-                    <span>Add Product</span>
-                </NavLink>
+              <NavLink to="/addProduct">
+                <i className="bi bi-circle"></i>
+                <span>Add Product</span>
+              </NavLink>
             </li>
             <li>
-                <NavLink to="/subCategories">
-                    <i className="bi bi-circle"></i>
-                    <span>Sub Categories</span>
-                </NavLink>
+              <NavLink to="/subCategories">
+                <i className="bi bi-circle"></i>
+                <span>Sub Categories</span>
+              </NavLink>
             </li>
           </ul>
         </li>

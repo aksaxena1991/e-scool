@@ -1,17 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import ErrorView from "./screens/error/ErrorView";
-import Home from "./screens/home/Home";
-import AssignSubject from "./screens/assign-subject/AssignSubject";
-import AddSchool from "./screens/add-school/AddSchool";
+import Categories from "./screens/add-categories/Categories";
 import AddCity from "./screens/add-city/AddCity";
 import AddClass from "./screens/add-class/AddClass";
-import Categories from "./screens/add-categories/Categories";
-import SubCategories from "./screens/sub-categories/SubCategories";
-import Login from "./login/Login";
 import AddProduct from "./screens/add-product/AddProduct";
-import AddTeacher from "./screens/add-teacher/AddTeacher";
+import AddSchool from "./screens/add-school/AddSchool";
 import AddSubject from "./screens/add-subject/AddSubject";
+import AddTeacher from "./screens/add-teacher/AddTeacher";
+import AssignSubject from "./screens/assign-subject/AssignSubject";
+import ErrorView from "./screens/error/ErrorView";
+import Home from "./screens/home/Home";
+import SubCategories from "./screens/sub-categories/SubCategories";
 
 const routes = createBrowserRouter([
   {
@@ -26,7 +25,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/addTeacher",
-        element: <AddTeacher/>,
+        element: <AddTeacher />,
       },
       {
         path: "/assignSubject",
@@ -54,11 +53,11 @@ const routes = createBrowserRouter([
       },
       {
         path: "/subCategories",
-        element: <SubCategories/>,
+        element: <SubCategories />,
       },
       {
         path: "/addProduct",
-        element: <AddProduct/>,
+        element: <AddProduct />,
       },
     ],
   },
