@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "./App";
 import Categories from "./screens/add-categories/Categories";
 import AddCity from "./screens/add-city/AddCity";
 import AddClass from "./screens/add-class/AddClass";
@@ -11,12 +10,13 @@ import AssignSubject from "./screens/assign-subject/AssignSubject";
 import ErrorView from "./screens/error/ErrorView";
 import Home from "./screens/home/Home";
 import SubCategories from "./screens/sub-categories/SubCategories";
+import Login from "./login/Login";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    // element: <Login />,
-    element: <App />,
+    element: <Login />,
+    // element: <App />,
     errorElement: <ErrorView />,
     children: [
       {

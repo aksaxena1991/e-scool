@@ -5,10 +5,6 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-    
-    // const apipath = "http://localhost:8080/api/v1";
-    // const filepath = "http://localhost:8080/images/";
-
   const apipath = "http://13.234.66.55:8080/api/v1";
   const filepath = "http://13.234.66.55:8080/images/";
 
