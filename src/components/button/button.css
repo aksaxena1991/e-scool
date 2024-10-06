@@ -1,0 +1,54 @@
+:root {
+    --blue: #24a0ed;
+    --hoverBlue: #1174b1;
+    --green: #33c02b;
+    --red: #ED2F3B;
+}
+
+.button {
+    margin: 6px 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primarybtn {
+    background-color: var(--blue);
+    padding: 8px 14px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.primarybtn:hover {
+    background-color: var(--hoverBlue);
+}
+
+.secondarybtn {
+    border: 1px solid var(--green);
+    padding: 8px 14px;
+    color: var(--green);
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.secondarybtn:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.tertiarybtn {
+   border: 1px solid var(--red);
+    padding: 8px 14px;
+    color: var(--red);
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tertiarybtn:hover {
+    background-color: var(--red);
+    color: #fff;
+}

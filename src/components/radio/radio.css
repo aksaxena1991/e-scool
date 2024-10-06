@@ -1,0 +1,14 @@
+.maindiv{
+    padding-left: 8px;
+    margin-right: 8px;
+}
+
+.fieldLbl{
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #afafaf;
+}
+.inputDiv{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.activeBtn{
+    background-color: #d3fed4;
+    color: #5c9872;
+    padding: 7px 14px;
+    border-radius: 4px;
+    border: 1.2px solid #5c9872;
+    cursor: pointer;
+}
+.inActiveBtn{
+    background-color: #FEE0E5;
+    color: #905967;
+    padding: 7px 14px;
+    border-radius: 4px;
+    border: 1.2px solid #905967;
+    cursor: pointer;
+}
+
+.dropDownMenuDiv{
+    background-color: #F6F9FF;
+}
+.dropDownMenuDiv li{
+    cursor: pointer;
+}

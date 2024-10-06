@@ -1,0 +1,22 @@
+.mainDiv{
+    display: inline-flex;
+    align-items: center;
+    /* margin: 0 8px; */
+    padding-left: 8px !important;
+}
+
+.labelStyle {
+    margin-left: 6px;
+    font-size: 14px;
+    color: #012970;
+    cursor: pointer;
+    font-family: 'Nunito' sans-serif,;
+}
+
+input [type='checkbox']{
+    appearance: none;
+    --webkit-appearance: none;
+    background-color: #012970;
+    border-radius: 5px;
+    cursor: pointer;
+}
